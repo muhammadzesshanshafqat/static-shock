@@ -1,11 +1,15 @@
+<div class="center jumbotron">
+	<h1>Static Shock</h1>
+	<h2>
+		This is the home page for a static website.
+		visit 
+		<a href="http://www.railstutorial.org/">
+		Rails Tutorial
+		</a>
+		to learn how to build this.
+	</h2>
+	<%= link_to "Sign up now", signup_path, class: "btn btn-lg btn-primary" %>
+</div>
 
-<h1>Static Shock</h1>
-<p>
-	This is the home page for a static website.
-	visit 
-	<a href="http://www.railstutorial.org/">
-	Rails Tutorial
-	</a>
-	to learn how to build this.
-</p>
-
+<%= link_to image_tag("rails.png", alt: "Rails logo"), 
+						"http://rubyonrails.org/" %>
