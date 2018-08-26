@@ -3,7 +3,8 @@
   <head>
     <title><%= full_title(yield(:title)) %></title>
     <%= render "layouts/rails_default" %>
-    <%= render "layouts/shim" %> 
+    <%= render "layouts/shim" %>
+    <%= javascript_include_tag "bootstrap" if Rails.env.production? %> 
   </head>
 
   <body>
